@@ -1,0 +1,11 @@
+{
+  "name": "snapex-pay",
+  "version": "1.0.0",
+  "description": "MCP server for crypto payments: an AI agent opens its own merchant account and accepts, sends and exchanges crypto.",
+  "mcpServers": {
+    "snapex-pay": {
+      "httpUrl": "https://pay.snapex.pro/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

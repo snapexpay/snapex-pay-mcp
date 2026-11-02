@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "snapex-pay",
+  "version": "1.0.0",
+  "description": "MCP server for crypto payments: an AI agent opens its own merchant account and accepts, sends and exchanges crypto.",
+  "author": {
+    "name": "SnapEX",
+    "url": "https://pay.snapex.pro"
+  },
+  "homepage": "https://pay.snapex.pro/mcp",
+  "repository": "https://github.com/snapexpay/snapex-pay-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "crypto-payments",
+    "payments",
+    "ai-agents",
+    "invoice",
+    "payouts",
+    "usdt",
+    "bitcoin"
+  ]
+}

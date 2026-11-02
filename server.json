@@ -1,0 +1,51 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "pro.snapex/pay",
+  "title": "SnapEX Pay",
+  "description": "Crypto payments for AI agents: self-serve account, invoices, receiving, payouts, exchange.",
+  "version": "1.0.0",
+  "websiteUrl": "https://pay.snapex.pro/mcp",
+  "repository": {
+    "url": "https://github.com/snapexpay/snapex-pay-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pay.snapex.pro/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional: \"Bearer smk_…\" merchant API key. Without it the agent calls create_account and the session goes on with the new key.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "snapex-pay-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "SNAPEX_API_KEY",
+          "description": "Merchant API key (smk_…). Optional: create_account makes one and saves it to ~/.config/snapex-pay/credentials.json.",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "SNAPEX_BASE_URL",
+          "description": "API base URL.",
+          "isRequired": false,
+          "default": "https://pay.snapex.pro"
+        }
+      ]
+    }
+  ]
+}

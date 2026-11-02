@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "snapex-pay": {
+      "url": "https://pay.snapex.pro/mcp"
+    }
+  }
+}

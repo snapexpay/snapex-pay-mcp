@@ -1,0 +1,65 @@
+{
+  "name": "snapex-pay-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for crypto payments: an AI agent opens its own merchant account and accepts, sends and exchanges crypto.",
+  "mcpName": "pro.snapex/pay",
+  "license": "MIT",
+  "author": {
+    "name": "SnapEX",
+    "email": "support@snapex.pro"
+  },
+  "homepage": "https://pay.snapex.pro/mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snapexpay/snapex-pay-mcp.git"
+  },
+  "bugs": {
+    "url": "https://pay.snapex.pro/#chat"
+  },
+  "keywords": [
+    "ai-agent",
+    "ai-agents",
+    "bitcoin",
+    "crypto",
+    "crypto-payments",
+    "gemini-cli-extension",
+    "invoice",
+    "invoices",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "payment-gateway",
+    "payments",
+    "payouts",
+    "snapex",
+    "usdt"
+  ],
+  "type": "module",
+  "bin": {
+    "snapex-pay-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "server.json"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node -e \"require('fs').copyFileSync('src/tools.json','dist/tools.json');require('fs').chmodSync('dist/index.js',0o755)\"",
+    "start": "node dist/index.js",
+    "test": "npm run build && node test/smoke.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  },
+  "displayName": "SnapEX Pay"
+}
