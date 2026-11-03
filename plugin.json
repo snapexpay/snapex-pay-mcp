@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "snapex-pay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for crypto payments: an AI agent opens its own merchant account and accepts, sends and exchanges crypto.",
   "author": {
     "name": "SnapEX",

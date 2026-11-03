@@ -3,7 +3,7 @@
   "name": "pro.snapex/pay",
   "title": "SnapEX Pay",
   "description": "Crypto payments for AI agents: self-serve account, invoices, receiving, payouts, exchange.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://pay.snapex.pro/mcp",
   "repository": {
     "url": "https://github.com/snapexpay/snapex-pay-mcp",
@@ -28,7 +28,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "snapex-pay-mcp",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "transport": {
         "type": "stdio"
       },
