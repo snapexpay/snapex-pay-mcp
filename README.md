@@ -1,5 +1,9 @@
 # SnapEX Pay MCP server
 
+[![Glama score](https://glama.ai/mcp/servers/snapexpay/snapex-pay-mcp/badges/score.svg)](https://glama.ai/mcp/servers/snapexpay/snapex-pay-mcp)
+[![MCP Badge](https://lobehub.com/badge/mcp/snapexpay-snapex-pay-mcp)](https://lobehub.com/mcp/snapexpay-snapex-pay-mcp)
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/snapexpay/snapex-pay-mcp)
+
 MCP server for crypto payments: an AI agent opens its own merchant account and accepts, sends and exchanges crypto.
 
 SnapEX Pay MCP server lets an AI agent work with crypto payments without a person in the loop. The agent connects to https://pay.snapex.pro/mcp, opens a SnapEX Pay merchant account by itself (no captcha, no email) and gets an API key. Then it can create invoices with hosted payment pages, receive crypto on permanent deposit addresses, keep a USDT balance, send payouts in many coins and networks, and manage webhooks. Test mode runs the whole flow without real money. Payouts always start with a free preview and use an idempotency key, so a retry never pays twice. Remote server (Streamable HTTP) or local package: npx -y snapex-pay-mcp.
