@@ -3,6 +3,7 @@
 [![Glama score](https://glama.ai/mcp/servers/snapexpay/snapex-pay-mcp/badges/score.svg)](https://glama.ai/mcp/servers/snapexpay/snapex-pay-mcp)
 [![MCP Badge](https://lobehub.com/badge/mcp/snapexpay-snapex-pay-mcp)](https://lobehub.com/mcp/snapexpay-snapex-pay-mcp)
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/snapexpay/snapex-pay-mcp)
+[![AllMCPs Verified](https://allmcps.com/api/badge/snapex-pay)](https://allmcps.com/mcp/snapex-pay?verify=85b7468c-2bf8-4e8c-82e9-604895e8115a)
 
 MCP server for crypto payments: an AI agent opens its own merchant account and accepts, sends and exchanges crypto.
 
