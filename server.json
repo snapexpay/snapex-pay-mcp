@@ -3,8 +3,24 @@
   "name": "pro.snapex/pay",
   "title": "SnapEX Pay",
   "description": "Crypto payments for AI agents: self-serve account, invoices, receiving, payouts, exchange.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://pay.snapex.pro/mcp",
+  "icons": [
+    {
+      "src": "https://pay.snapex.pro/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    },
+    {
+      "src": "https://pay.snapex.pro/apple-touch-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "180x180"
+      ]
+    }
+  ],
   "repository": {
     "url": "https://github.com/snapexpay/snapex-pay-mcp",
     "source": "github"
